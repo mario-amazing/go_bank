@@ -9,7 +9,7 @@ import (
 
 func main() {
 	name := "go_develop"
-	db, err := sql.Open("mysql", "root:Lol384721596@/"+name)
+	db, err := sql.Open("mysql", "root:dummy@/"+name)
 	fmt.Println(err)
 	if err != nil {
 		panic(err.Error()) // Just for example purpose. You should use proper error handling instead of panic
