@@ -24,16 +24,16 @@ var routes = Routes{
 		"/clients",
 		ClientIndex,
 	},
-	// Route{
-	// 	"TodoCreate",
-	// 	"POST",
-	// 	"/todos",
-	// 	TodoCreate,
-	// },
-	// Route{
-	// 	"TodoShow",
-	// 	"GET",
-	// 	"/todos/{todoId}",
-	// 	TodoShow,
-	// },
+	Route{
+		"ClientShow",
+		"GET",
+		"/clients/{id}",
+		ClientShow,
+	},
+	Route{
+		"ClientCreate",
+		"POST",
+		"/clients",
+		ClientCreate,
+	},
 }
